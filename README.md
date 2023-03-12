@@ -1,2 +1,2 @@
-# C-Kodlar-m-2023-
-Not aldığım ve denediğim C kodlarını buraya atacağım.
+# C-Kodlarim-2023-
+Not aldigim ve denedigim C kodlarini buraya atacagim.
