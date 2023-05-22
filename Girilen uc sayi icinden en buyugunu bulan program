@@ -21,5 +21,10 @@ int main()
     {
           printf("Girdiginiz sayilardan en buyuk olani: %d'dir",c);
     }
+    else if (a==b && a==c)
+    {
+          printf("Girdiginiz sayilar esittir.");
+    }
     return 0;
 }
+
