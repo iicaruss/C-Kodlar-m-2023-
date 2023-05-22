@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+      int a,i,top=0;
+
+      printf("bir sayi giriniz: ");
+      scanf("%d",&a);
+
+      printf("girdiginiz sayi %d ve 0'dan girdiginiz sayiya kadar olan sayilar sunlar: ",a);
+
+      for (i=0;i<a;i++)
+      {
+            top=1+i;
+            printf("%d ",top);
+      }
+}
