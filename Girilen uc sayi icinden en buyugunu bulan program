@@ -1,0 +1,25 @@
+#include<stdio.h>
+int main()
+{
+    int a,b,c;
+    printf("Uc adet sayi girecegiz.\n");
+    printf("Birinci sayiyi giriniz:");
+    scanf("%d",&a);
+    printf("Ikinci sayiyi giriniz:");
+    scanf("%d",&b);
+    printf("Ucuncu sayiyi giriniz:");
+    scanf("%d",&c);
+    if (a>b && a>c)
+    {
+          printf("Girdiginiz sayilardan en buyuk olani: %d'dir",a);
+    }
+    else if (b>a && b>c)
+    {
+          printf("Girdiginiz sayilardan en buyuk olani: %d'dir",b);
+    }
+    else if (c>a && c>b)
+    {
+          printf("Girdiginiz sayilardan en buyuk olani: %d'dir",c);
+    }
+    return 0;
+}
