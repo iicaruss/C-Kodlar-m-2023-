@@ -1,0 +1,35 @@
+#include<stdio.h>
+int main()
+{
+      //char ile operator kullanarak switch case hesap makinesi:
+      char op;
+      float a,b;
+      printf("-----HESAP MAKINESI-----\n");
+      printf("Lutfen +,-,/,* islem turlerinden birini giriniz: ");
+      scanf("%c",&op);
+      printf("Lutfen islem yapilacak sayilari sirasiyla giriniz:");
+      scanf("%f",&a);
+      scanf("%f",&b);
+      switch (op)
+      {
+            case '+': printf("%.2f + %.2f = %.2f",a,b,a+b);
+            break;
+            case '-': printf("%.2f - %.2f = %.2f",a,b,a-b);
+            break;
+            case '/':
+            if(b==0)
+            {
+                  printf("Bir sayiyi sifira bolerseniz sonuc tanimsiz olur.");
+            }
+            else
+            {
+                  printf("%.2f / %.2f = %.2f",a,b,a/b);
+            }
+            break;
+            case '*': printf("%.2f * %.2f = %.2f",a,b,a*b);
+            break;
+            default: printf("Lutfen verilen komutlari girerek programi tekrarlayiniz.");
+            break;
+      }
+      return 0;
+}
