@@ -1,0 +1,27 @@
+#include<stdio.h>
+int main()
+{
+      char a,c,i;
+	float alan,cevre,taban,yuk,k1,k2,k3;
+	printf("Alan bulmak icin 'a' cevre icin 'c' giriniz.");
+	scanf("%c",&i);
+	if(i=='a')
+	{
+		printf("Ucgenin sirasiyla taban ve yuksekligini giriniz.");
+		scanf("%f %f",&taban,&yuk);
+		alan=taban*yuk/2;
+		printf("Ucgenin Alani: %f",alan);
+	}
+	else if(i=='c')
+	{
+		printf("Ucgenin kenarlarini giriniz.");
+		scanf("%f %f %f",&k1,&k2,&k3);
+		cevre=k1+k2+k3;
+		printf("Ucgenin cevresi %f",cevre);
+	}
+	else
+	{
+	      printf("Gecersiz islem yaptiniz lutfen komutlari uygulayarak programi tekrarlayiniz.");
+	}
+	return 0;
+}
